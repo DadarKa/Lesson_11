@@ -332,12 +332,13 @@ body {
 }
 
 .who-we-are {
-  border-radius: 40px;
-  background-color: #5d62b5;
+  
 }
 ._container-style {
   max-width: 1020px;
   margin: 0 auto;
+ border-radius: 40px;
+  background-color: #5d62b5;
 }
 .who-we-are__body {
   padding: 100px 87px 0px 87px;
@@ -352,7 +353,7 @@ body {
     url(../img/CarRepairandDoggie/who_we_are/Circles.png) 0 0 no-repeat;
   position: absolute;
   top: -109px;
-  right: -360px;
+  right: -88px;
 }
 .content {
   margin: 0px 0px -34px 0px;
