@@ -111,16 +111,16 @@ body {
   padding: 15px 0px 15px 25px;
   color: #ffff;
 }
-.relative__items-sky-blue {
+.relative__items_sky-blue {
   background-color: #87cfeb;
   position: relative;
   top: 600px;
   left: 90%;
 }
-.relative__items-sky-blue:hover {
+.relative__items_sky-blue:hover {
   z-index: 1;
 }
-.relative__items-yellow {
+.relative__items_yellow {
   background-color: #e5f50b;
   color: #000000;
   position: relative;
@@ -128,38 +128,38 @@ body {
   left: -10px;
   z-index: 1;
 }
-.relative__items-yellow:hover {
+.relative__items_yellow:hover {
   position: relative;
   z-index: 5;
 }
-.relative__items-orang {
+.relative__items_orang {
   background-color: #f5880b;
   position: relative;
   z-index: 2;
 }
-.relative__items-brown {
+.relative__items_brown {
   background-color: #613f18;
   position: relative;
   top: 0px;
   left: 300px;
 }
-.relative__items-green {
+.relative__items_green {
   background-color: #5ca708;
   position: relative;
   bottom: 100px;
   left: 100px;
 }
-.relative__items-red {
+.relative__items_red {
   background-color: #f14021;
   position: relative;
   z-index: 2;
 }
-.relative__items-violet {
+.relative__items_violet {
   background-color: #b30bf5;
   position: relative;
   bottom: 100px;
 }
-.relative__items-violet:hover {
+.relative__items_violet:hover {
   position: relative;
   z-index: 3;
 }
@@ -175,44 +175,44 @@ body {
   padding: 15px 0px 15px 25px;
   color: #ffff;
 }
-.absolute__items-sky-blue {
+.absolute__items_sky-blue {
   background-color: #87cfeb;
   position: absolute;
   top: 80px;
   z-index: 0;
 }
-.absolute__items-sky-blue:hover {
+.absolute__items_sky-blue:hover {
   z-index: 6;
 }
-.absolute__items-yellow {
+.absolute__items_yellow {
   background-color: #e5f50b;
   color: #000000;
 }
-.absolute__items-orang {
+.absolute__items_orang {
   background-color: #f5880b;
   position: absolute;
   top: 25px;
 }
-.absolute__items-orang:hover {
+.absolute__items_orang:hover {
   z-index: 5;
 }
-.absolute__items-brown {
+.absolute__items_brown {
   background-color: #613f18;
   position: absolute;
   left: 20%;
 }
-.absolute__items-brown:hover {
+.absolute__items_brown:hover {
   position: relative;
   top: 0px;
   left: 20%;
 }
-.absolute__items-green {
+.absolute__items_green {
   background-color: #5ca708;
   position: absolute;
   right: 20%;
   bottom: 50px;
 }
-.absolute__items-green::before {
+.absolute__items_green::before {
   content: "";
   display: inline-block;
   background-color: #000000;
@@ -221,7 +221,7 @@ body {
   border-radius: 5px;
   margin: 0px 0px 0px -13px;
 }
-.absolute__items-green::after {
+.absolute__items_green::after {
   content: "";
   display: inline-block;
   background-color: #000000;
@@ -230,13 +230,13 @@ body {
   border-radius: 5px;
   margin: 0px 0px 0px -9px;
 }
-.absolute__items-red {
+.absolute__items_red {
   background-color: #f14021;
   position: absolute;
   bottom: 50%;
   left: -20px;
 }
-.absolute__items-violet {
+.absolute__items_violet {
   background-color: #b30bf5;
   position: absolute;
   left: 650px;
@@ -249,7 +249,7 @@ body {
 .fixed__items {
   padding: 15px 0px 15px 25px;
 }
-.fixed__items-sky-blue {
+.fixed__items_sky-blue {
   background-color: #87cfeb;
   position: fixed;
   width: 100%;
@@ -267,13 +267,13 @@ body {
 .sticky__items {
   padding: 15px 0px 15px 25px;
 }
-.sticky__items-violet {
+.sticky__items_violet {
   background-color: #b30bf5;
   position: sticky;
   top: 10px;
   z-index: 200;
 }
-.sticky__items-yellow {
+.sticky__items_yellow {
   background-color: #e5f50b;
   position: sticky;
   top: 0px;
