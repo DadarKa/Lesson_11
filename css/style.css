@@ -358,6 +358,7 @@ body {
 .content {
   margin: 0px 0px -34px 0px;
   position: relative;
+ z-index:1;
 }
 .content__sub-title {
   font-weight: bold;
@@ -402,7 +403,7 @@ body {
   top: 100px;
   z-index: 1;
 }
-.image::before {
+.who-we-are::after {
   content: "";
   display: inline-block;
   background: url(../img/CarRepairandDoggie/bg/bg.webp) 0 0 no-repeat,
