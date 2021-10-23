@@ -403,7 +403,7 @@ body {
   top: 100px;
   z-index: 1;
 }
-.who-we-are::after {
+.who-we-are__body::after {
   content: "";
   display: inline-block;
   background: url(../img/CarRepairandDoggie/bg/bg.webp) 0 0 no-repeat,
