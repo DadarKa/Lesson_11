@@ -358,7 +358,7 @@ body {
 .content {
   margin: 0px 0px -34px 0px;
   position: relative;
- z-index:1;
+  z-index:1;
 }
 .content__sub-title {
   font-weight: bold;
@@ -411,7 +411,7 @@ body {
   width: 665px;
   height: 591px;
   position: absolute;
-  bottom: -115px;
+  bottom: 0px;
   left: -30px;
   z-index: 0;
 }
