@@ -398,8 +398,9 @@ body {
 .who-we-are__item {
   display: inline-block;
   border-radius: 40px;
+  max-width: 846px;
+  height: 420px;
   width: 100%;
-  height: 100%;
   position: relative;
   top: 100px;
   z-index: 1;
@@ -410,8 +411,9 @@ body {
   display: inline-block;
   background: url(../img/CarRepairandDoggie/bg/bg.webp) 0 0 no-repeat,
     url(../img/CarRepairandDoggie/bg/bg.png) 0 0 no-repeat;
-  width: 665px;
+  max-width: 665px;
   height: 591px;
+  width: 100%;
   position: absolute;
   bottom: -110px;
   left: -30px;
