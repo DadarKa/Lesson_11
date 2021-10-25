@@ -393,9 +393,9 @@ body {
   letter-spacing: 0.15px;
   color: #f5f5f5;
 }
-.image {
+.who-we-are__image {
 }
-.image__item {
+.who-we-are__item {
   display: inline-block;
   border-radius: 40px;
   width: 100%;
